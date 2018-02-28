@@ -1,0 +1,48 @@
+.container{
+
+    margin-top:20px;
+    width:780px;
+    height:403px;
+
+    background-image: url("../images/login_form.png") !important;
+
+}
+
+
+#login_button {
+
+    margin-top: 163% !important;
+    margin-left: 45% !important;
+
+}
+
+input#username{
+    width: 117% !important;
+    margin-top: 117%;
+    margin-left: 29%;
+    position: absolute;
+
+
+}
+
+input#pass{
+
+    width: 117% !important;
+    margin-top: 131%;
+    margin-left: 29%;
+    position: absolute;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000 !important;
+}
+

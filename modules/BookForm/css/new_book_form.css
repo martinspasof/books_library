@@ -1,0 +1,70 @@
+.container{
+
+    margin-top:20px;
+    /*width:780px;*/
+    /*height:20% !important;*/
+
+    background-image: url("../images/new_book_form.png") !important;
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-size: 91% 100%;
+
+}
+
+input{
+    height: 0% !important;
+}
+
+textarea.form-control,#resume {
+
+    width: 128% !important;
+    /*height: 20% !important;*/
+    resize: none;
+    max-height: 10% !important;
+    max-width: 128% !important;
+
+}
+
+#input_file{
+    margin-left: 14%;
+    margin-top: 3%;
+}
+
+#image_icon{
+    position: absolute;
+}
+
+
+#all_books{
+    margin-left: 60%;
+    margin-top: 8%;
+}
+
+#success_message{
+    margin-top: 10%;
+    width: 53%;
+    margin-left: 24%;
+    margin-bottom: -13%;
+}
+
+.row{
+    margin-top: 17%;
+    margin-left: 7%;
+}
+
+#publish_date, #format_size{
+    width: 127%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000 !important;
+}

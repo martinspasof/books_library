@@ -1,0 +1,30 @@
+.container{
+    margin-top:5%;
+    margin-left: 13% !important;
+    width:77%;
+    background-image: url("../images/book_list.png") !important;
+    background-repeat:no-repeat;
+
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+#nextNumber{
+    /*margin-left: 58% !important;*/
+    float:right;
+}
+
+#pager{
+    margin-bottom: 5%;
+}
+
+table{
+    margin-top: 6%;
+}
+
+#new_book_button{
+    margin-left: 80%;
+    margin-top: 8%;
+}
